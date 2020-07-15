@@ -1,0 +1,27 @@
+{
+	"name": "mysql-promise",
+	"version": "1.0.0",
+	"description": "A light Promise wrapper around the mysql library",
+	"main": "index.js",
+	"engines": {
+		"node": ">=8.6.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"mysql",
+		"async",
+		"await",
+		"promise"
+	],
+	"author": "Dayton Lowell",
+	"license": "WTFPL",
+	"dependencies": {
+		"mysql": "^2.18.1"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"uvu": "^0.2.2"
+	}
+}
